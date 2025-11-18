@@ -45,6 +45,9 @@ public class SingleLinkList {
     }
 
     public void removeFrontFront(){
-
+        if (head == null){
+            return;
+        }
+        head = head.next;
     }
 }
