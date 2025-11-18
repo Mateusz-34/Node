@@ -26,7 +26,7 @@ public class SingleLinkList {
         temp.next = newNode;
     }
 
-    public void removeFront(){
+    public void removeFrontEnd(){
         if (head == null){
             return;
         }
@@ -42,5 +42,9 @@ public class SingleLinkList {
         }
 
         nodePointer.next = null;
+    }
+
+    public void removeFrontFront(){
+
     }
 }
